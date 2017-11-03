@@ -5,6 +5,7 @@ Docker image containing the Serverless Framework – Build web, mobile and IoT a
 All versions are generated using a unique [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile) what is located at [Intelygenz's Serverless GitHub repository](https://github.com/intelygenz/serverless)
 
 * [1.20.0](https://github.com/serverless/serverless/releases/tag/v1.20.0): [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile)
+* [1.20.1](https://github.com/serverless/serverless/releases/tag/v1.20.1): [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile)
 
 # What is serverless?
 ![serverless logo](https://raw.githubusercontent.com/intelygenz/serverless/master/assets/serverless.png)

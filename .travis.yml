@@ -9,5 +9,4 @@ branches:
 
 script:
   - docker build --build-arg SERVERLESS_VERSION=$TRAVIS_TAG -t serverless_test:$TRAVIS_TAG .
-  - echo 'Test'
   - docker run serverless_test:$TRAVIS_TAG --version | grep $TRAVIS_TAG

@@ -1,12 +1,15 @@
 sudo: required
 
-services:
-  - docker
+language: c
 
 branches:
   only:
     - /^([0-9.]+)(-\w+)?$/
 
+services:
+  - docker
+
 script:
-  - docker build --build-arg SERVERLESS_VERSION=$TRAVIS_TAG -t serverless_test:$TRAVIS_TAG .
-  - docker run serverless_test:$TRAVIS_TAG --version | grep $TRAVIS_TAG
+  - make lint
+  - make build test
+  - make tag push

@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+branches:
+  only:
+    - /^([0-9.]+)(-\w+)?$/
+
+script:
+  - docker build --build-arg SERVERLESS_VERSION=$TRAVIS_TAG -t serverless:test .

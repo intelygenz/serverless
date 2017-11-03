@@ -23,6 +23,7 @@ tag:
 	docker tag $(TEST_TAG) $(LATEST_TAG)
 
 login:
+	echo $(DOCKER_USER)
 	@docker login -u "$(DOCKER_USER)" -p "$(DOCKER_PASS)"
 
 push: login

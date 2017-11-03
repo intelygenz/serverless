@@ -10,6 +10,7 @@ All versions are generated using a unique [Dockerfile](https://github.com/intely
 * [1.21.0](https://github.com/serverless/serverless/releases/tag/v1.21.0): [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile)
 * [1.21.1](https://github.com/serverless/serverless/releases/tag/v1.21.1): [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile)
 * [1.22.0](https://github.com/serverless/serverless/releases/tag/v1.22.0): [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile)
+* [1.23.0](https://github.com/serverless/serverless/releases/tag/v1.23.0): [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile)
 
 # What is serverless?
 ![serverless logo](https://raw.githubusercontent.com/intelygenz/serverless/master/assets/serverless.png)

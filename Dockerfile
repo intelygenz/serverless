@@ -14,7 +14,7 @@ ENV PATH /root/.yarn/bin:$PATH
 RUN pip install awscli
 
 # install serverless
-RUN npm install serverless@$SERVERLESS_VERSION -g
+RUN npm config set loglevel warn && npm install serverless@$SERVERLESS_VERSION -g
 
 # make magic
 ENTRYPOINT ["serverless"]

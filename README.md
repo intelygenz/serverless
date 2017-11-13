@@ -1,4 +1,5 @@
-[![](https://images.microbadger.com/badges/image/sistemasigz/serverless.svg)](https://microbadger.com/images/sistemasigz/serverless "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/sistemasigz/serverless.svg)](https://microbadger.com/images/sistemasigz/serverless "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/intelygenz/serverless.svg)](https://microbadger.com/images/intelygenz/serverless "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/intelygenz/serverless.svg)](https://microbadger.com/images/intelygenz/serverless "Get your own version badge on microbadger.com")
+
 # serverless
 Docker image containing the Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
 

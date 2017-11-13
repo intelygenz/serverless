@@ -1,4 +1,4 @@
-OWNER=sistemasigz
+OWNER=intelygenz
 IMAGE_NAME=serverless
 IMAGE_VERSION=$(TRAVIS_TAG)
 QNAME=$(OWNER)/$(IMAGE_NAME)

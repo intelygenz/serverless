@@ -24,7 +24,7 @@ Serverless is your toolkit for deploying and operating serverless architectures.
 # How to use this image
 You can run a serverless project by using this image directly, passing a serverless command to `docker run`:
 
-    docker run -it --rm --name my-serverless-project -v "$(pwd)":/usr/src/myserverless -w /usr/src/myserverless sistemasigz/serverless:1.24.1 deploy
+    docker run -it --rm --name my-serverless-project -v "$(pwd)":/usr/src/myserverless -w /usr/src/myserverless intelygenz/serverless:1.24.1 deploy
 
 ## Building local Docker image (optional)
 This is a base image that you can extend, so it has the bare minimum packages needed. If you add custom package(s) to the `Dockerfile`, then you can build your local Docker image like this:

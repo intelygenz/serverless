@@ -1,7 +1,7 @@
 [![](https://images.microbadger.com/badges/image/intelygenz/serverless.svg)](https://microbadger.com/images/intelygenz/serverless "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/intelygenz/serverless.svg)](https://microbadger.com/images/intelygenz/serverless "Get your own version badge on microbadger.com")
 
 # serverless
-Docker image containing the Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
+Docker image containing the [Serverless](https://serverless.com/) Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
 
 # Supported tags and respective Dockerfile links
 All versions are generated using a unique [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile) what is located at [Intelygenz's Serverless GitHub repository](https://github.com/intelygenz/serverless)
@@ -19,10 +19,10 @@ All versions are generated using a unique [Dockerfile](https://github.com/intely
 # What is serverless?
 ![serverless logo](https://raw.githubusercontent.com/intelygenz/serverless/master/assets/serverless.png)
 
-Serverless is your toolkit for deploying and operating serverless architectures. Focus on your application, not your infrastructure.
+[Serverless](https://serverless.com/) is your toolkit for deploying and operating serverless architectures. Focus on your application, not your infrastructure.
 
 # How to use this image
-You can run a serverless project by using this image directly, passing a serverless command to `docker run`:
+You can run a [Serverless](https://serverless.com/) project by using this image directly, passing a [Serverless](https://serverless.com/) command to `docker run`:
 
     docker run -it --rm --name my-serverless-project -v "$(pwd)":/usr/src/myserverless -w /usr/src/myserverless intelygenz/serverless:1.24.1 deploy
 

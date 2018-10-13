@@ -20,6 +20,7 @@ All versions are generated using a unique [Dockerfile](https://github.com/intely
 * [1.25.0](https://github.com/serverless/serverless/releases/tag/v1.25.0): [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile)
 * [1.26.0](https://github.com/serverless/serverless/releases/tag/v1.26.0): [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile)
 * [1.30.0](https://github.com/serverless/serverless/releases/tag/v1.30.0): [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile)
+* [1.30.1](https://github.com/serverless/serverless/releases/tag/v1.30.1): [Dockerfile](https://github.com/intelygenz/serverless/blob/master/Dockerfile)
 
 ## What is serverless?
 
@@ -31,13 +32,13 @@ All versions are generated using a unique [Dockerfile](https://github.com/intely
 
 You can run a [Serverless](https://serverless.com/) project by using this image directly, passing a [Serverless](https://serverless.com/) command to `docker run`:
 
-    docker run -it --rm --name my-serverless-project -v "$(pwd)":/usr/src/myserverless -w /usr/src/myserverless intelygenz/serverless:1.30.0 deploy
+    docker run -it --rm --name my-serverless-project -v "$(pwd)":/usr/src/myserverless -w /usr/src/myserverless intelygenz/serverless:1.30.1 deploy
 
 ### Building local Docker image (optional)
 
 This is a base image that you can extend, so it has the bare minimum packages needed. If you add custom package(s) to the `Dockerfile`, then you can build your local Docker image like this:
 
-    docker build --build-arg SERVERLESS_VERSION=1.30.0 --tag my_local_serverless:1.30.0 .
+    docker build --build-arg SERVERLESS_VERSION=1.30.1 --tag my_local_serverless:1.30.1 .
 
 ## License
 
